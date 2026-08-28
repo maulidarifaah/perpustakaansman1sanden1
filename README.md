@@ -57,7 +57,7 @@ Gambaran umum tata letak area sekolah:
         +-------------------------------------------+
 ```
 
- 
+Denah lengkap (peta area sekolah): [DenahPerpus](https://canva.link/jm4pt1xrm6lzxsf)
 
 ## 🎯 Tujuan
 
@@ -148,8 +148,11 @@ Gambaran umum tata letak area sekolah:
 |---|---|---|
 | Admin | `Maulida` | `242570` |
 | Petugas | `petugas1` | `petugas123` |
+| Petugas | `petugas2` | `petugas123` |
 | Siswa | `siswa1` | `siswa123` |
 | Siswa | `siswa2` | `siswa123` |
+| Siswa | `siswa3` | `siswa123` |
+| Siswa | `siswa4` | `siswa123` |
 
 ⚠️ Ganti password default ini setelah login pertama kali, terutama di lingkungan production.
 
