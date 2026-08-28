@@ -10,9 +10,15 @@ Aplikasi web peminjaman dan pengembalian buku untuk Perpustakaan SMA N 1 Sanden.
 
 Project ini dibuat sebagai aplikasi web perpustakaan sekolah dengan tampilan bertema **"paper / kartu perpustakaan"**, mencakup peminjaman, pengembalian, denda otomatis, dan dashboard statistik untuk tiga peran pengguna (Siswa, Petugas, Admin).
 
-**Mockup:** [MockupPerpus](./docs/mockup.png) &nbsp;&nbsp; **Flowchart:** [FlowchartPerpus](./docs/flowchart.png) &nbsp;&nbsp; **Algoritma:** [AlgoritmaPerpus](https://canva.link/jm4pt1xrm6lzxsf) &nbsp;&nbsp; **Denah Sekolah:** [DenahPerpus](https://canva.link/jm4pt1xrm6lzxsf)
+**Preview:**
 
-> ⚠️ Untuk **Mockup**, taruh file gambarnya di folder `docs/` dengan nama `mockup.png` agar link-nya aktif (file `flowchart.png` sudah tersedia di `docs/`).
+| Mockup | Flowchart | ERD (Entity Relationship Diagram) |
+|---|---|---|
+| ![Mockup](./mockup.jpeg) | ![Flowchart](./flowchart.png) | ![ERD](./ED.png) |
+
+**Algoritma:** [SIPERPUS_Algoritma_ActivityDiagram.docx](./SIPERPUS_Algoritma_ActivityDiagram.docx) &nbsp;&nbsp; **Denah Sekolah:** [DenahPerpus](https://canva.link/jm4pt1xrm6lzxsf) &nbsp;&nbsp; **Desain (Stitch):** [StitchPerpus](https://stitch.withgoogle.com/projects/11049937787915564127)
+
+> ⚠️ File `mockup.jpeg`, `flowchart.png`, `ED.png`, dan `SIPERPUS_Algoritma_ActivityDiagram.docx` berada di root repo ini.
 
 Website dapat diakses melalui:
 
@@ -51,7 +57,7 @@ Gambaran umum tata letak area sekolah:
         +-------------------------------------------+
 ```
 
-Denah lengkap (peta area sekolah): [DenahPerpus](https://canva.link/jm4pt1xrm6lzxsf)
+ 
 
 ## 🎯 Tujuan
 
@@ -96,9 +102,12 @@ Denah lengkap (peta area sekolah): [DenahPerpus](https://canva.link/jm4pt1xrm6lz
 ├── admin/                  # Dashboard & fitur khusus Admin
 ├── petugas/                 # Dashboard & fitur khusus Petugas
 ├── siswa/                   # Dashboard, katalog, & daftar akun untuk Siswa/Anggota
-├── docs/                   # Aset dokumentasi (mockup.png, flowchart.png)
-└── assets/
-    ├── css/, img/, video/
+├── assets/
+│   ├── css/, img/, video/
+├── mockup.jpeg             # Preview mockup desain
+├── flowchart.png           # Flowchart alur aplikasi
+├── ED.png                  # Entity Relationship Diagram database
+└── SIPERPUS_Algoritma_ActivityDiagram.docx  # Dokumen algoritma & activity diagram
 ```
 
 > Ada juga versi **HTML statis** (`index.html`, `index1.html`, `login.html`) tanpa backend — dipakai untuk preview desain tanpa perlu server PHP aktif. Statistik/grafik di versi ini pakai **data contoh**, bukan data asli. File `login_proses.php` dan `seed.php` tidak punya versi HTML karena murni logika backend tanpa tampilan.
